@@ -1,0 +1,10 @@
+Algoritmo año_bisiesto
+	Definir an Como Entero
+	Escribir "Ingrese un año: "
+	Leer  an
+	Si an mod 4 == 0 Entonces
+		Escribir "El año que usted ingresó es bisiesto"
+	SiNo
+		Escribir "El año que usted ingresó no es bisiesto"
+	FinSi
+FinAlgoritmo
